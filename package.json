@@ -6,7 +6,8 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "convert": "ts-node src/convert.ts"
   },
   "dependencies": {
     "sharp": "^0.32.0"
