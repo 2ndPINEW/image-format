@@ -1,0 +1,20 @@
+{
+  "name": "image-format",
+  "version": "1.0.0",
+  "repository": "ssh://git@github.com/2ndPINEW/image-format.git",
+  "author": "Eito Takase <eito01178@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
